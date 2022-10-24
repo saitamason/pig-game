@@ -169,3 +169,38 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
+/* Modal window - Instructions */
+.instructions {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top left, #bf2e34 0%, #753682 100%);
+  z-index: 100;
+  padding: 10rem;
+}
+
+.instructions h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.instructions h2 {
+  color: #ccc;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.instructions p {
+  color: white;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.instructions strong {
+  text-decoration: underline;
+}

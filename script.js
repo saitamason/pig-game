@@ -2,14 +2,20 @@
 
 // Selecting elements
 const btnRoll = document.querySelector('.btn--roll'),
+  btnPlay = document.querySelector('.btn--play'),
   btnHold = document.querySelector('.btn--hold'),
   btnNew = document.querySelector('.btn--new'),
   imgDice = document.querySelector('.dice'),
+  modalWindow = document.querySelector('.instructions'),
   // Default label
   defaultLabel = document.querySelector('.current-label').textContent;
 
 // Variables
 let activePlayer, currentScore, gameStatus, totalScore;
+
+// Hide modal
+const hideModal = () => (modalWindow.style.display = 'none');
+btnPlay.addEventListener('click', hideModal);
 
 // Reset game
 const resetGame = () => {
