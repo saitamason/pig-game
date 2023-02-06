@@ -2,7 +2,7 @@
 
 **Roll the dice and play against another player.**
 
-## 💻 Screenshots
+## 💻 Screenshot
 [<img src="pig-game-screenshot-960.webp" alt="Screenshot of the Pig Game game-app" width="480px">](https://dawidlehai-pig-game.netlify.app/)
 
 ## 🛠️ Tools and technologies
